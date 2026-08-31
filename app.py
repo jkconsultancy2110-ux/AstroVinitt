@@ -16,8 +16,7 @@ api_key = st.sidebar.text_input(
     type="password", 
     help="Enter your API key from aistudio.google.com"
 )
-model_name = st.sidebar.selectbox("Gemini Model", ["gemini-2.5-flash", "gemini-2.5-pro"])
-
+model_name = st.sidebar.selectbox("Gemini Model", ["gemini-2.5-flash", "gemini-3.1-pro-preview"])
 # --- Main Interface ---
 st.title("🔮 Astro Vinitt - Client Consultation & PDF Report")
 st.caption("Astrologer: Vinitt Parmar | Contact: +91 7874066576")
